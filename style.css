@@ -1,0 +1,199 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav main"
+        "footer footer";
+    background-image: url("/img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "main";
+    }
+}
+
+.header {
+
+    grid-area: header;
+    background-color: gray;
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+    background-image: url("/img/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    div {
+        h2 {
+            margin: 0;
+        }
+    }
+
+    img {
+        width: 10rem;
+        border-radius: 3rem;
+
+
+
+    }
+
+}
+
+
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+}
+
+
+
+article {
+    margin: 1em;
+
+    header {
+        text-transform: uppercase;
+    }
+
+    hr {
+        width: 10em;
+
+    }
+
+    main {
+        text-transform: none;
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+
+}
+
+.mapa {
+
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.phone {
+    display: flex;
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.gmail {
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.perfil {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contacto {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.habilidades {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formacion {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.competencias {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.idiomas {
+    text-align: center;
+}
+
+.habilidad {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: 50%;
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nombre-habilidad {
+    flex: 1;
+    margin-right: 1rem;
+    color: #070108;
+}
+
+.barra {
+    flex: 2;
+    height: 1.5rem;
+    background-color: #3a393b;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.nivel {
+    height: 100%;
+    border-radius: 4rem;
+    background-color: #fdf6fda9;
+    transition: width 0.5s ease;
+}
