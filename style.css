@@ -4,10 +4,10 @@ body {
         "header header"
         "nav main"
         "footer footer";
-    background-image: url("/img/background.jpg");
+    background-image: url("/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-
+color: aliceblue;
 }
 
 @media only screen and (max-width:600px) {
@@ -27,7 +27,7 @@ body {
     display: flex;
     padding: 1em;
     gap: 1em;
-    background-image: url("/img/bg2.jpg");
+    background-image: url("/back4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,16 +136,19 @@ article {
 .titulo {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
 }
 
 .titulo2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
 }
 
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
 }
 
 .texto {
@@ -167,6 +170,7 @@ h1 {
 .idiomas {
     text-align: center;
 }
+
 
 .habilidad {
     display: flex;
