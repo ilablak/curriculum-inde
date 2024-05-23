@@ -4,7 +4,7 @@ body {
         "header header"
         "nav main"
         "footer footer";
-    background-image: url("/background.jpg");
+    background-image: url("background.jpg");
     background-position: center;
     background-repeat: no-repeat;
 color: aliceblue;
@@ -27,7 +27,7 @@ color: aliceblue;
     display: flex;
     padding: 1em;
     gap: 1em;
-    background-image: url("/back4.jpg");
+    background-image: url("back4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
